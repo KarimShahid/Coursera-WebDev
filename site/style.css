@@ -33,4 +33,46 @@ h2{
 
 }
 
+p {
+    width: 50%;
+    /* border: 1px solid black; */
+    /* margin:10px; */
+    margin-bottom: 5px;
+    padding: 10px;
+  }
 
+  .floating{
+        background-color: #00FFFF;
+  }
+
+#p1 {
+    background-color: #A52A2A;
+    float: left;
+    height: 150px;
+  }
+  #p2 {
+    background-color: #DEB887;
+    float:right;
+    height: 100px;
+  }
+  #p3 {
+    background-color: #5F9EA0;
+    clear:both;
+    height: 100px;
+  }
+  #p4 {
+    background-color: #FF7F50;
+    height: 100px;
+  }
+
+section{
+    clear:left;
+}
+
+#p5{
+    float: left;
+}
+
+#p6{
+    float: right;
+}
