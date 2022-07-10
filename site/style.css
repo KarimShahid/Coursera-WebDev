@@ -1,78 +1,77 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background-color: aliceblue;
+body {
+  background-color: aliceblue;
 }
 
-h2{
-    margin-bottom: 40px;
+h2 {
+  margin-bottom: 40px;
 }
-#box{
-    background-color: aqua;
-    padding: 10px;  /* top right bottom left */
-    border: 15px solid black;
-    margin-top: 15px;
-    width: 400px;
-    height: 80px;
-    overflow: auto;
-}
-
-#content{
-    background-color: lightgreen;
+#box {
+  background-color: aqua;
+  padding: 10px; /* top right bottom left */
+  border: 15px solid black;
+  margin-top: 15px;
+  width: 400px;
+  height: 80px;
+  overflow: auto;
 }
 
-#bg{
-    width: 500px;
-    height: 500px;
-    background-color: aquamarine;
-    background: url('yaakov.png') no-repeat center red;
+#content {
+  background-color: lightgreen;
+}
 
+#bg {
+  width: 500px;
+  height: 500px;
+  background-color: aquamarine;
+  background: url("yaakov.png") no-repeat center red;
 }
 
 p {
-    width: 50%;
-    /* border: 1px solid black; */
-    /* margin:10px; */
-    margin-bottom: 5px;
-    padding: 10px;
-  }
+  width: 50%;
+  /* border: 1px solid black; */
+  /* margin:10px; */
+  margin-bottom: 5px;
+  padding: 10px;
+}
 
-  .floating{
-        background-color: #00FFFF;
-  }
+.floating {
+  background-color: #00ffff;
+}
 
 #p1 {
-    background-color: #A52A2A;
-    float: left;
-    height: 150px;
-  }
-  #p2 {
-    background-color: #DEB887;
-    float:right;
-    height: 100px;
-  }
-  #p3 {
-    background-color: #5F9EA0;
-    clear:both;
-    height: 100px;
-  }
-  #p4 {
-    background-color: #FF7F50;
-    height: 100px;
-  }
-
-section{
-    clear:left;
+  background-color: #a52a2a;
+  float: left;
+  height: 150px;
+}
+#p2 {
+  background-color: #deb887;
+  float: right;
+  height: 100px;
+}
+#p3 {
+  background-color: #5f9ea0;
+  clear: both;
+  height: 100px;
+}
+#p4 {
+  background-color: #ff7f50;
+  height: 100px;
 }
 
-#p5{
-    float: left;
+section {
+  clear: left;
 }
 
-#p6{
-    float: right;
+#p5 {
+  float: left;
+}
+
+#p6 {
+  float: right;
 }
